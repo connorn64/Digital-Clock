@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    background: radial-gradient( #f5f5f5, rgb(134, 134, 134));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 62.5% 'Archivo Black', sans-serif;
+    color: #f5f5f5;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background: linear-gradient(to right, rgb(103, 116, 116), #1f1f1f);
+    height: 15%;
+    width: 30%;
+    margin: 0 auto;
+    padding: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #000 -9px -9px 25px 2px;
+    border-radius: 6px;
+    border: 1.5px solid #1f1f1f;
+}
+
+section .clock {
+    background: #0a28537a;
+    height: 65%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 6em;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1510px) {
+    section .clock {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    section {
+        padding: 2.5em;
+    }
+    section .clock {
+        font-size: 2.4em;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    section {
+        width: 70%
+    }
+}
