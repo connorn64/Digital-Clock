@@ -27,7 +27,7 @@ section {
     align-items: center;
     box-shadow: #000 -9px -9px 25px 2px;
     border-radius: 6px;
-    border: 1.5px solid #1f1f1f;
+    border: 12px solid #1f1f1f;
 }
 
 section .clock {
